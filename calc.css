@@ -81,10 +81,20 @@ html, body {
 
 .calc-container {
     display: none;
+    padding: 10px;
 }
 
 #results.show {
     display: block;
+}
+
+span {
+    color: #ed020e;
+    font-size: 1.2em;
+}
+
+#results {
+    background-color: #eaeaea;
 }
 
 
@@ -96,4 +106,7 @@ html, body {
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
+
+
 }

@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	$("#button").on("click", function (e) {
+
 		e.preventDefault();
 
 		var x = parseFloat($("#x").val());
@@ -18,7 +19,7 @@ $(document).ready(function () {
 		$(".x").text(x);
 		$(".y").text(y);
 
-		$('#results').addClass(".show");
+		$('#results').addClass("show");
 
 	});
 
@@ -38,5 +39,4 @@ function multiply(a, b) {
 
 function divide(a, b) {
 	return a / b;
-}
 }
