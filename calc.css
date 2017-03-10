@@ -79,6 +79,14 @@ html, body {
     font-size: 16px;
 }
 
+.calc-container {
+    display: none;
+}
+
+#results.show {
+    display: block;
+}
+
 
 /* Tablet/Desktop overrides */
 

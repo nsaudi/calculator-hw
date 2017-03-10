@@ -18,6 +18,8 @@ $(document).ready(function () {
 		$(".x").text(x);
 		$(".y").text(y);
 
+		$('#results').addClass(".show");
+
 	});
 
 });
@@ -36,4 +38,5 @@ function multiply(a, b) {
 
 function divide(a, b) {
 	return a / b;
+}
 }
